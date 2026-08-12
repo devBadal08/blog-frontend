@@ -18,7 +18,7 @@ export default function ViewTracker({ slug }: ViewTrackerProps) {
 
     const recordView = async () => {
       try {
-        const url = `http://192.168.1.15:8000/api/blogs/${encodeURIComponent(slug)}/view`;
+        const url = `https://admin.supplychainbasics.com/api/blogs/${encodeURIComponent(slug)}/view`;
 
         console.log("Sending view request:", url);
 

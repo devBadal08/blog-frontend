@@ -27,7 +27,7 @@ export interface BlogPost {
 
 async function getBlogs(): Promise<BlogPost[]> {
   try {
-    const res = await fetch("http://192.168.1.15:8000/api/blogs", {
+    const res = await fetch("https://admin.supplychainbasics.com/api/blogs", {
       cache: "no-store",
     });
 

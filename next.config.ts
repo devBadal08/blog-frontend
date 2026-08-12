@@ -5,9 +5,8 @@ const nextConfig: NextConfig = {
     dangerouslyAllowLocalIP: true,
     remotePatterns: [
       {
-        protocol: "http",
-        hostname: "192.168.1.15",
-        port: "8000",
+        protocol: "https",
+        hostname: "admin.supplychainbasics.com",
         pathname: "/storage/**",
       },
     ],
